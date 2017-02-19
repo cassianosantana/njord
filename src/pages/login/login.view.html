@@ -1,13 +1,22 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title color="light">
+  <ion-navbar  color="primary">
+    <ion-title >
       Bem Vindo
     </ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content>
+<h2>Njord logo goes here</h2>
   <ion-list>
-    <input-base-component></input-base-component>
-    <input-base-component></input-base-component>
+    <ion-item>
+        <ion-label color="primary" floating>Usuário</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label color="primary" floating>Senha</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
   </ion-list>
+  <button ion-button block>Entrar</button>
+  <button ion-button block>Cadastrar</button>
 </ion-content>
